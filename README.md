@@ -2,10 +2,6 @@
 Capstone Project showcasing my end-to-end skills
 # 📊 Data Analytics Portfolio
 
-![SQL](https://img.shields.io/badge/SQL-Basic-blue)
-![Power BI](https://img.shields.io/badge/Power%20BI-Learning-yellow)
-![Data Analytics](https://img.shields.io/badge/Data%20Analytics-Portfolio-orange)
-
 Project Workflow: Data ➡️ Data Cleaning & Preparation using SQL ➡️ EDR Diagram ➡️ Findings ➡️ Power BI Dashboard
 
 ---
