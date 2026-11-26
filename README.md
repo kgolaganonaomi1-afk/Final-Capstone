@@ -3,42 +3,28 @@ Capstone Project showcasing my end-to-end skills
 # 📊 Data Analytics Portfolio
 
 ![SQL](https://img.shields.io/badge/SQL-Basic-blue)
-![Excel](https://img.shields.io/badge/Excel-Intermediate-green)
 ![Power BI](https://img.shields.io/badge/Power%20BI-Learning-yellow)
 ![Data Analytics](https://img.shields.io/badge/Data%20Analytics-Portfolio-orange)
 
 Project Workflow: Data ➡️ Data Cleaning & Preparation using SQL ➡️ EDR Diagram ➡️ Findings ➡️ Power BI Dashboard
 
 ---
-## 🧠 Project Name: Imbewu Retail — Sales Analytics
+## 🧠 Project Name: Sizwe Coffee (Pty) Ltd — Revenue Analytics
 
 ---
 ## 🗺️ Overview
 
-As a fictional newly hired Junior Data Analyst at Imbewu Retail, I was tasked by the Head of Sales to investigate an unexplained revenue decline in Western Cape despite stable foot traffic and deliver a Power BI dashboard with a written summary for an executive readout to the COO within three weeks
-
-<img width="953" height="571" alt="image" src="https://github.com/user-attachments/assets/58473f37-4e62-4ad7-a0d8-0ad7ab288687" />
-
-
-
+Find out what is happening to this business, then say where the next five million should go.
 
 ## 🎯 The problem
 
-Imbewu Retail is a fictional South African Retail Business with 45 Stores located across Gauteng, Western Cape, KwaZulu-Natal and Eastern Cape. The leadership has noticed a drop in Revenue in the Western Cape and has requested for an investigation to findout the reasons why this is happening and what should be done to fix it. To investigate this issue, I have drawn 3 Hypotheses that will help us determine or answer the following questions:
-
-1. Is this Revenue drop only happening in Western Cape or other Provinces are affected as well?
-2. Is there a specific business metric or patten that is causing this drop or its just happening on a random?
-3. Is this affecting all stores or a select few? if not all Stores are affected, please explain which ones and why?
-4. There was a Promotion ran in April 2025, the CFO would like to know if it worked or not
-5. What recommendations do you suggest to stop this bleeding?
+Sizwe Coffee closed FY2025 with R480 million of revenue, up 8.8% on the year before. On the face of it, a good year. The board does not think so. Gross margin fell from 34.7% to 33.0%. The overdraft was drawn on twice in a year when revenue grew. Nobody at the June board meeting could explain either, and the management pack did not help, because every segment and every channel in it looks roughly the same. Nomsa Dlamini, the Financial Director, has brought you in ahead of the strategy session in three weeks. She has given you the full dataset and two instructions. 
 
 #### 📌 Hyphothesis Tested aimed at answering the question of what happened
 
-- Hypothesis 1: Total Revenue has not only dropped for Western Cape but has dropped for all Provinces.
-- Hypothesis 2: Western Cape had a drop in revenue because of drop in Transaction count. This means customers are not purchasing as much products in 2025 than in 2024.
-- Hypothesis 3: Loyalty Tier plays a role in Revenue drop by Province.
-
-Before I could start the analysis, I had to take into consideration the fact that 2025 dataset only covers Jan - June period while 2024 includes a full year. Therefore to be able to do accurate comparisons, I ensured that all 2024 data was filtered to the same Jan - June window. Without this adjustment, 2024 would appear to outperform 2025 by default simply because it contains more data leading to misleading results. Testing the above Hypotheses will help the company concentrate on high-revenue/profit product lines, optimize inventory management of stores and implement targeted, location-specific projects to increase revenue and profit.
+- Hypothesis 1: Find out what is actually happening to this business. Not what the management pack says - what the data says. 
+- Hypothesis 2: Then tell me where to put the next five million rand. I want a proposal I can take to the board: what we should do more of, what it is worth, and what could go wrong with it.
+- Hypothesis 3: The second instruction is the one that matters. A diagnosis that ends without a recommendation is half a piece of work. .
 
 ----
 
@@ -49,8 +35,7 @@ Before I could start the analysis, I had to take into consideration the fact tha
 - Power BI Desktop
 - DAX
 - Python for Data analytics
-- Microsoft Word
-- Git and GitHub
+- GitHub
 
 **Skills**
 - SQL — CTEs, window functions, ranking
@@ -62,32 +47,39 @@ Before I could start the analysis, I had to take into consideration the fact tha
 
 ## 📦 The dataset
 
-The full dataset contains six CSV files. The six files contain tables covering 18 months of operations (January 2024 through June 2025) across
-all 45 stores nationwide. The data used is not a real-life data but it's been generated to look and behave like a real industry retail dataset, with the natural skew you'd expect.
+Sizwe's financial year ends 30 June. FY2025 is 1 July 2024 to 30 June 2025. Control total. FY2025 revenue is R480,000,023.35. Prove it before you build anything on top of it.
 
 | File | Rows | Description |
 | ----------------------- | ------- | ---------------------------------------------------- |
-| `customers (1).csv` | 3,000 | Loyalty programme members and their tier (Bronze / Silver / Gold) |
-| `imbewu_products (1).csv` | 48 | Imbewu's product catalogue across 5 categories: Groceries, Household, Health & Beauty, Electronics, Apparel |
-| `stores.csv` | 45 | Stores across 4 South African provinces |
-| `transaction_items.csv` | 48,641 | Line items inside each transaction |
-| `transactions.csv` | 9,164 | Every till receipt issued in the period |
-| `promotions.csv` | 4 | Historical and current marketing campaigns |
+| `Sales .csv` | sales_orders · sales_lines · products · customers · reps · rep_visits  |
+| `Receivables.csv` | ar_ledger |
+| `Commercial costs .csv` | listing_fees · trade_promotions  |
+| `Finance .csv` | gl_transactions · chart_of_accounts · cost_centres · budget  |
+| `Supply.csv` |Every till receipt issued in the period |
 
 ----
 
 ## 🗂️ Schema Diagram
 
+----
+
+Phase 1 - Understand the business (15 marks) 
+Before you investigate anything, know what you are holding. 
+
+###### 1.1 Produce an entity relationship diagram of the tables you intend to use. Primary keys, foreign keys, 
+cardinality, and the grain of each table in one sentence. 
+
 <img width="953" height="571" alt="image" src="https://github.com/user-attachments/assets/9a1222b5-a4ec-4bbd-ab8a-9e0ee3f599f6" />
-
-
 
 ----
 
 ## ⚠️ Data quality issues
 
 ----
-All the data cleaning and Data preparation was done using SQL. There were 5 checks done overall and they include the following:
+
+###### 1.2 Profile the data. Row counts, date ranges, missing values, and anything that does not join the way 
+you expected. Report every integrity gap you find and say whether it is a data quality problem or a real 
+feature of how the business works. Both exist in here. All the data cleaning and Data preparation was done using SQL. There were 5 checks done overall and they include the following:
 
 1. Checking for Duplicates in all tables: No duplicates were found in the data.
 2. Checking for Null values: There were a lot of Null values in 3 tables: **Customers**, **Stores** and **Transactions** table.
@@ -102,6 +94,8 @@ So the decision on what to do with the Null Values was based on whether the info
 **Final decision**: Keep the Null values in the data instead of replacing the data or deleting it from the tables especially the transactions because they contribute to the total revenue.
 
 3. Check for Inconsistent casing: Western Cape and Gauteng provinces contain both upper case and lower cases. This was causing inaccurate results for provincial revenue analysis. So to fix the issue, standardized the cases using SQL. Data quality check SQL Code found in [`Data quality checks.md`]([sql/05_data_quality_checks.sql](https://github.com/mishsonjica-hash/Amanda-Sonjica/blob/main/Data%20quality%20checks.md))
+
+###### 1.3 State your scope. Which tables you used, which you left out, and why.
 
 ## 📊 Dashboards
 
