@@ -5,7 +5,7 @@ Capstone Project showcasing my end-to-end skills
 Project Workflow: Data ➡️ Data Cleaning & Preparation using SQL ➡️ EDR Diagram ➡️ Findings ➡️ Power BI Dashboard
 
 ---
-## 🧠 Project Name: Sizwe Coffee (Pty) Ltd — Revenue Analytics
+## 🧠 Project Name: Sizwe Coffee (Pty) Ltd ➡️Revenue Analytics
 
 ---
 ## 🗺️ Overview
