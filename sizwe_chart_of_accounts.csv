@@ -1,0 +1,44 @@
+account_code,account_name,account_type,reporting_line,is_active
+1000,Bank,Asset,Current Assets,True
+1100,Accounts Receivable,Asset,Current Assets,True
+1200,Inventory - Green Beans,Asset,Current Assets,True
+1210,Inventory - Finished Goods,Asset,Current Assets,True
+1220,Inventory - Packaging,Asset,Current Assets,True
+1400,Property Plant and Equipment,Asset,Non-current Assets,True
+1410,Accumulated Depreciation,Asset,Non-current Assets,True
+2000,Accounts Payable,Liability,Current Liabilities,True
+2100,VAT Control,Liability,Current Liabilities,True
+2200,Accruals,Liability,Current Liabilities,True
+2300,Term Loan - Ketrova Bank,Liability,Non-current Liabilities,True
+2310,Revolving Facility - Ketrova Bank,Liability,Current Liabilities,True
+3000,Share Capital,Equity,Equity,True
+3100,Retained Earnings,Equity,Equity,True
+4000,Revenue - Wholesale,Revenue,Revenue,True
+4010,Revenue - Subscription,Revenue,Revenue,True
+4100,Discounts Allowed,Revenue,Revenue,True
+5000,COGS - Green Beans,Expense,Cost of Sales,True
+5010,COGS - Packaging,Expense,Cost of Sales,True
+5020,Roasting Overhead,Expense,Cost of Sales,True
+5030,Freight In,Expense,Operating Expenses,True
+6000,Salaries,Expense,Operating Expenses,True
+6010,Wages,Expense,Operating Expenses,True
+6020,Overtime,Expense,Operating Expenses,True
+6030,Training and Development,Expense,Operating Expenses,True
+6040,Recruitment,Expense,Operating Expenses,True
+6100,Rent,Expense,Operating Expenses,True
+6110,Utilities,Expense,Operating Expenses,True
+6120,Repairs and Maintenance,Expense,Operating Expenses,True
+6130,Cleaning and Consumables,Expense,Operating Expenses,True
+6200,Fuel,Expense,Operating Expenses,True
+6210,Vehicle Maintenance,Expense,Operating Expenses,True
+6220,Third-party Delivery,Expense,Cost of Sales,True
+6300,Marketing and Trade Spend,Expense,Operating Expenses,True
+6310,Listing Fees,Expense,Operating Expenses,True
+6400,IT and Software,Expense,Operating Expenses,True
+6410,Telephone and Data,Expense,Operating Expenses,True
+6500,Professional Fees,Expense,Operating Expenses,True
+6510,Insurance,Expense,Operating Expenses,True
+6520,Bank Charges,Expense,Operating Expenses,True
+6600,Depreciation,Expense,Operating Expenses,True
+7000,Interest Paid,Expense,Other,True
+7100,Foreign Exchange Gain or Loss,Expense,Other,True

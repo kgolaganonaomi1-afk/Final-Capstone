@@ -1,0 +1,14 @@
+cost_centre,description,function,headcount
+CC-100,Executive and Admin,Executive,31
+CC-110,Finance,Finance,24
+CC-120,Human Resources,HR,9
+CC-130,Information Technology,IT,8
+CC-200,Procurement,Procurement,12
+CC-210,Roastery Production,Production,80
+CC-220,Quality Control,Production,16
+CC-300,Warehouse Isando,Warehousing,34
+CC-310,Warehouse Epping,Warehousing,22
+CC-320,Distribution,Warehousing,28
+CC-400,Sales Wholesale,Sales,30
+CC-410,Sales Subscription,Sales,12
+CC-500,Marketing,Marketing,14
