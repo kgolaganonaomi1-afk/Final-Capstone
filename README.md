@@ -53,6 +53,25 @@ Sizwe's financial year ends 30 June. FY2025 is 1 July 2024 to 30 June 2025. Cont
 | `Finance .csv` | gl_transactions · chart_of_accounts · cost_centres · budget  |
 | `Supply.csv` |Every till receipt issued in the period |
 
+## Data Files
+
+### Sales
+- [Customers](Sales/sizwe_customers.csv)
+- [Products](Sales/sizwe_products.csv)
+- [Sales Orders](Sales/sizwe_sales_orders.csv)
+- [Sales Lines](Sales/sizwe_sales_lines.csv)
+- [Reps](Sales/sizwe_reps.csv)
+- [Rep Visits](Sales/sizwe_rep_visits.csv)
+
+### Revenue
+- [AR Ledger](Revenue/sizwe_ar_ledger.csv)
+- [Listing Fees](Revenue/sizwe_listing_fees.csv)
+- [Trade Promotions](Revenue/sizwe_trade_promotions.csv)
+- [GL Transactions](Revenue/sizwe_gl_transactions.csv)
+- [Budget](Revenue/sizwe_budget.csv)
+- [Chart of Accounts](Revenue/sizwe_chart_of_accounts.csv)
+- [Cost Centres](Revenue/sizwe_cost_centres.csv
+
 ----
 
 ## 🗂️ Schema Diagram
@@ -72,24 +91,7 @@ Kgolagano Selebano <kgolaganonaomi1@gmail.com>
 2:07 AM (0 minutes ago)
 to naomi.selebano
 
-## Data Files
 
-### Sales
-- [Customers](Sales/sizwe_customers.csv)
-- [Products](Sales/sizwe_products.csv)
-- [Sales Orders](Sales/sizwe_sales_orders.csv)
-- [Sales Lines](Sales/sizwe_sales_lines.csv)
-- [Reps](Sales/sizwe_reps.csv)
-- [Rep Visits](Sales/sizwe_rep_visits.csv)
-
-### Revenue
-- [AR Ledger](Revenue/sizwe_ar_ledger.csv)
-- [Listing Fees](Revenue/sizwe_listing_fees.csv)
-- [Trade Promotions](Revenue/sizwe_trade_promotions.csv)
-- [GL Transactions](Revenue/sizwe_gl_transactions.csv)
-- [Budget](Revenue/sizwe_budget.csv)
-- [Chart of Accounts](Revenue/sizwe_chart_of_accounts.csv)
-- [Cost Centres](Revenue/sizwe_cost_centres.csv)
 ----
 
 ## ⚠️ Data quality issues
