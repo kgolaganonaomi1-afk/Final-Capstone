@@ -22,8 +22,6 @@ Sizwe Coffee closed FY2025 with R480 million of revenue, up 8.8% on the year bef
 - Hypothesis 2: Then tell me where to put the next five million rand. I want a proposal I can take to the board: what we should do more of, what it is worth, and what could go wrong with it.
 - Hypothesis 3: The second instruction is the one that matters. A diagnosis that ends without a recommendation is half a piece of work. .
 
-----
-
 ## 💻 Tools & skills used
 
 **Tools**
