@@ -63,8 +63,6 @@ Sizwe's financial year ends 30 June. FY2025 is 1 July 2024 to 30 June 2025. Cont
 
 [Supply](Supply)
 
-## 🗂️ Schema Diagram
-
 ----
 ## 🎯 Phase 1 - Understand the business (15 marks) 
 
