@@ -69,29 +69,21 @@ Sizwe's financial year ends 30 June. FY2025 is 1 July 2024 to 30 June 2025. Cont
 
 ----
 
-Phase 1 - Understand the business (15 marks) 
+# Phase 1 - Understand the business (15 marks) 
+
+----
+
 Before you investigate anything, know what you are holding. 
 
-###### 1.1 Produce an entity relationship diagram of the tables you intend to use. Primary keys, foreign keys, 
-cardinality, and the grain of each table in one sentence. 
+###### 1.1 Produce an entity relationship diagram of the tables you intend to use. Primary keys, foreign keys, cardinality, and the grain of each table in one sentence. 
 
 <img width="953" height="571" alt="image" src="https://github.com/user-attachments/assets/9a1222b5-a4ec-4bbd-ab8a-9e0ee3f599f6" />
 
-
-Kgolagano Selebano <kgolaganonaomi1@gmail.com>
-2:07 AM (0 minutes ago)
-to naomi.selebano
-
-
-----
-
 ## ⚠️ Data quality issues
 
-----
+###### 1.2 Profile the data. Row counts, date ranges, missing values, and anything that does not join the way you expected. Report every integrity gap you find and say whether it is a data quality problem or a real feature of how the business works. Both exist in here.
 
-###### 1.2 Profile the data. Row counts, date ranges, missing values, and anything that does not join the way 
-you expected. Report every integrity gap you find and say whether it is a data quality problem or a real 
-feature of how the business works. Both exist in here. All the data cleaning and Data preparation was done using SQL. There were 5 checks done overall and they include the following:
+All the data cleaning and Data preparation was done using SQL. There were 5 checks done overall and they include the following:
 
 1. Checking for Duplicates in all tables: No duplicates were found in the data.
 2. Checking for Null values: There were a lot of Null values in 3 tables: **Customers**, **Stores** and **Transactions** table.
@@ -108,6 +100,48 @@ So the decision on what to do with the Null Values was based on whether the info
 3. Check for Inconsistent casing: Western Cape and Gauteng provinces contain both upper case and lower cases. This was causing inaccurate results for provincial revenue analysis. So to fix the issue, standardized the cases using SQL. Data quality check SQL Code found in [`Data quality checks.md`]([sql/05_data_quality_checks.sql](https://github.com/mishsonjica-hash/Amanda-Sonjica/blob/main/Data%20quality%20checks.md))
 
 ###### 1.3 State your scope. Which tables you used, which you left out, and why.
+
+----
+
+# Phase 2 - Diagnose the margin (20 marks) 
+
+----
+
+Gross margin fell 1.7 points on growing revenue. Find out why. Work from the whole to the part: total, then by channel, then by product line, then by whatever the data points you at next. At each step, say what the number rules out as well as what it rules in. The explanation that will occur to everyone first is discounting. Test it properly and report what you find either way, with the figures. Finish with a decomposition a non-analyst could follow: here is the 1.7 points, here is what each factor contributed.
+
+----
+
+# Phase 3 - Follow the cash (20 marks) 
+
+----
+
+Revenue grew and the business still ran short of money. Explain that. Look at what the business is owed and how long it takes to collect, how that changed over the two years, and what changed to cause it. Quantify how much cash is sitting in the debtors book at year end. Then look wider than the debtors book. There are costs of selling to a customer that never reach cost of goods sold and are therefore invisible to gross margin. Find them, quantify them, and say which parts of the business carry them.
+
+----
+
+# Phase 4 - Build the venture case (30 marks) 
+
+----
+
+Somewhere in this business there is a part that is economically much better than the rest, and the 
+management pack cannot see it because the measure it uses makes everything look the same. Find it. Then build the case for investing in it. 
+Your case must include: 
+
+###### The comparison. Set the candidate part of the business against the rest on more than gross margin. 
+Margin alone is what got Sizwe here. Think about what a rand of revenue in each part actually costs to win, to service and to finance, and construct a measure that captures it. State your measure, justify it, and show the working. 
+
+###### The size of the prize.
+What is it worth to shift revenue from one part of the business to the other? Model it. State your assumptions as explicit numbers and show the arithmetic - assumptions you cannot see are assumptions nobody can challenge. 
+
+###### The constraint.
+
+No opportunity is free. Work out what limits how fast this could grow - capacity, customers, cash, people, something in the data - and say what the realistic ceiling is. The risk. What would have to be true for this to fail? Name at least three specific risks with something from the data attached to each, not a generic list.
+
+###### The ask. 
+
+What should Nomsa do with the five million rand, in concrete terms, and what return should she expect by when? A proposal built on one metric will not score well. A proposal that quantifies the opportunity, sizes the constraint and names what could break it will.
+
+----
 
 ## 📊 Dashboards
 
