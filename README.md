@@ -66,7 +66,7 @@ Sizwe's financial year ends 30 June. FY2025 is 1 July 2024 to 30 June 2025. Cont
 ## 🗂️ Schema Diagram
 
 ----
-# Phase 1 - Understand the business (15 marks) 
+## 🎯 Phase 1 - Understand the business (15 marks) 
 
 Before you investigate anything, know what you are holding. 
 
@@ -97,16 +97,16 @@ So the decision on what to do with the Null Values was based on whether the info
 ###### 1.3 State your scope. Which tables you used, which you left out, and why.
 
 ----
-# Phase 2 - Diagnose the margin (20 marks) 
+## 🎯 Phase 2 - Diagnose the margin (20 marks) 
 
 Gross margin fell 1.7 points on growing revenue. Find out why. Work from the whole to the part: total, then by channel, then by product line, then by whatever the data points you at next. At each step, say what the number rules out as well as what it rules in. The explanation that will occur to everyone first is discounting. Test it properly and report what you find either way, with the figures. Finish with a decomposition a non-analyst could follow: here is the 1.7 points, here is what each factor contributed.
 
 ----
-# Phase 3 - Follow the cash (20 marks) 
+## 🎯 Phase 3 - Follow the cash (20 marks) 
 Revenue grew and the business still ran short of money. Explain that. Look at what the business is owed and how long it takes to collect, how that changed over the two years, and what changed to cause it. Quantify how much cash is sitting in the debtors book at year end. Then look wider than the debtors book. There are costs of selling to a customer that never reach cost of goods sold and are therefore invisible to gross margin. Find them, quantify them, and say which parts of the business carry them.
 
 ----
-# Phase 4 - Build the venture case (30 marks) 
+## 🎯 Phase 4 - Build the venture case (30 marks) 
 Somewhere in this business there is a part that is economically much better than the rest, and the 
 management pack cannot see it because the measure it uses makes everything look the same. Find it. Then build the case for investing in it. 
 Your case must include: 
