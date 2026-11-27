@@ -68,9 +68,7 @@ Sizwe's financial year ends 30 June. FY2025 is 1 July 2024 to 30 June 2025. Cont
 ## 🗂️ Schema Diagram
 
 ----
-
 # Phase 1 - Understand the business (15 marks) 
-----
 
 Before you investigate anything, know what you are holding. 
 
@@ -101,9 +99,7 @@ So the decision on what to do with the Null Values was based on whether the info
 ###### 1.3 State your scope. Which tables you used, which you left out, and why.
 
 ----
-
 # Phase 2 - Diagnose the margin (20 marks) 
-----
 
 Gross margin fell 1.7 points on growing revenue. Find out why. Work from the whole to the part: total, then by channel, then by product line, then by whatever the data points you at next. At each step, say what the number rules out as well as what it rules in. The explanation that will occur to everyone first is discounting. Test it properly and report what you find either way, with the figures. Finish with a decomposition a non-analyst could follow: here is the 1.7 points, here is what each factor contributed.
 
