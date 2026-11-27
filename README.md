@@ -67,6 +67,29 @@ cardinality, and the grain of each table in one sentence.
 
 <img width="953" height="571" alt="image" src="https://github.com/user-attachments/assets/9a1222b5-a4ec-4bbd-ab8a-9e0ee3f599f6" />
 
+
+Kgolagano Selebano <kgolaganonaomi1@gmail.com>
+2:07 AM (0 minutes ago)
+to naomi.selebano
+
+## Data Files
+
+### Sales
+- [Customers](Sales/sizwe_customers.csv)
+- [Products](Sales/sizwe_products.csv)
+- [Sales Orders](Sales/sizwe_sales_orders.csv)
+- [Sales Lines](Sales/sizwe_sales_lines.csv)
+- [Reps](Sales/sizwe_reps.csv)
+- [Rep Visits](Sales/sizwe_rep_visits.csv)
+
+### Revenue
+- [AR Ledger](Revenue/sizwe_ar_ledger.csv)
+- [Listing Fees](Revenue/sizwe_listing_fees.csv)
+- [Trade Promotions](Revenue/sizwe_trade_promotions.csv)
+- [GL Transactions](Revenue/sizwe_gl_transactions.csv)
+- [Budget](Revenue/sizwe_budget.csv)
+- [Chart of Accounts](Revenue/sizwe_chart_of_accounts.csv)
+- [Cost Centres](Revenue/sizwe_cost_centres.csv)
 ----
 
 ## ⚠️ Data quality issues
